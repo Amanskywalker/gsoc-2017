@@ -1,11 +1,11 @@
 # Dependencies
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 
 # Setup
 title:            Report
 tagline:          'GSOC 2017 project Report'
-description:      ''
+description:      'The Google Summer of Code is almost over, so I wrote this post to give a overview over the targets I’ve met (and those I haven’t).'
 url:              me.amanskywalker.tk/
 baseurl:          /gsoc-2017/
 
@@ -21,5 +21,5 @@ github:
 
 gems :
   - jekyll-paginate
-paginate: 5
+paginate: 2
 paginate_path: "page:num"
