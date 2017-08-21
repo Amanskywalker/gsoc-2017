@@ -24,7 +24,11 @@ The coding part of the project was done in 3 phases
 
 **Dockerization** : In order to achieve the Dockerization, I have had to added new scripts like Dockerfile, Docker-composer, bash scripts to set up the Docker container. The Docker is logically divided into smaller containers like PEcAn-Core, PEcAn-web, Bety & PostgreSQL. They are communicating with each other to get the task accompleshed.
 
-In order to achive the New Instant Setup, T have to added new Web pages and PHP scripts to edit the config file
+***Pull Request*** : The Pull Request for this phase can be found at  [github.com/PecanProject/pecan/pull/1485](https://github.com/PecanProject/pecan/pull/1485)
+
+#### Phase 2 :
+
+**Configuration Setup** : In order to design a configuration page, need to design a adaptive script which needed no or less modification to adapt to the changes in the corresponding config file. Also the 
 
 
 [project link](https://summerofcode.withgoogle.com/projects/#5583766987735040)
