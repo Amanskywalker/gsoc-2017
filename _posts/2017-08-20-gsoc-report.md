@@ -5,7 +5,7 @@ title: Dockerization And New Instance setup
 
 ## Introduction
 
-The Aim of the project is to replace the current VM stack which is being used to distribute the PEcAn with the Docker stack, Moreover develope interface to ease the user in the setup of the new Instance of the PEcAn. This is a short report on the project.
+The Aim of the project is to replace the current VM stack which is being used to distribute the PEcAn with the Docker stack, Moreover develope interface to ease the user in the setup of the new Instance of the PEcAn. This is a short report on the [project](https://summerofcode.withgoogle.com/projects/#5583766987735040).
 
 ### Code Repository
 
@@ -23,19 +23,20 @@ The coding part of the project was done in 3 phases
 #### Phase 1 :
 
 **Dockerization** : In order to achieve the Dockerization, I have had to added new scripts like Dockerfile, Docker-composer, bash scripts to set up the Docker container. The Docker is logically divided into smaller containers like PEcAn-Core, PEcAn-web, Bety & PostgreSQL. They are communicating with each other to get the task accompleshed.
+The Relative documentaion is updated so the user won't find it difficult to setup the docker containers.
 
 ***Pull Request*** : The Pull Request for this phase can be found at  [github.com/PecanProject/pecan/pull/1485](https://github.com/PecanProject/pecan/pull/1485)
 
 #### Phase 2 :
 
-**Configuration Setup** : In order to design a configuration page, need to design a adaptive script which needed no or less modification to adapt to the changes in the corresponding config file. Also the design  
+**Configuration Setup** : In order to design a configuration page, needed to design a adaptive script which need no or less modification to adapt to the changes in the corresponding config file. Also the design aspect include the frameworks like bootstrap which made the page responsive.
+A brief description of the use of the setup page is added in the documentaion.
 
-***Pull Request*** : The Pull Request for this phase can be found at [github.com/PecanProject/pecan/pull/1541](https://github.com/PecanProject/pecan/pull/1541)
+***Pull Request*** : The Pull Request for this phase can be found at  [github.com/PecanProject/pecan/pull/1541](https://github.com/PecanProject/pecan/pull/1541)
 
 #### Phase 3 :
 
-**Syncronization** : In the need to setup the 
+**Syncronization** : In this phase the objective was to setup the syncronization of database between two system, the request response cycle use the JSON to communicate with each other. Also a cron job is made which runs in the backgroud to make sure the syncronization is done. Further the registration and genration of the tokes are automated so it don't need user intervantion.
+A new submit bug page is maded as post bug report from within the application.
 
-
-
-[project link](https://summerofcode.withgoogle.com/projects/#5583766987735040)
+***Pull Request*** : The Pull Request for this phase can be found at  [github.com/PecanProject/pecan/pull/1589](https://github.com/PecanProject/pecan/pull/1589)
