@@ -14,7 +14,7 @@ author:
   url:            www.amanskywalker.tk
 
 # Custom vars
-version:
+version:          1
 
 github:
   repo:           https://github.com/Amanskywalker/gsoc-2017.git

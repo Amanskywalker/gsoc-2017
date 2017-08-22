@@ -5,7 +5,7 @@ title: Dockerization And New Instance setup
 
 ## Introduction
 
-The Aim of the project was to replace the current VM stack which is being used to distribute the PEcAn with the Docker stack, Moreover develope interface to ease the user in the setup of the new Instance of the PEcAn. This is a short report on the project.
+The Aim of the project is to replace the current VM stack which is being used to distribute the PEcAn with the Docker stack, Moreover develope interface to ease the user in the setup of the new Instance of the PEcAn. This is a short report on the project.
 
 ### Code Repository
 
@@ -28,7 +28,14 @@ The coding part of the project was done in 3 phases
 
 #### Phase 2 :
 
-**Configuration Setup** : In order to design a configuration page, need to design a adaptive script which needed no or less modification to adapt to the changes in the corresponding config file. Also the 
+**Configuration Setup** : In order to design a configuration page, need to design a adaptive script which needed no or less modification to adapt to the changes in the corresponding config file. Also the design  
+
+***Pull Request*** : The Pull Request for this phase can be found at [github.com/PecanProject/pecan/pull/1541](https://github.com/PecanProject/pecan/pull/1541)
+
+#### Phase 3 :
+
+**Syncronization** : In the need to setup the 
+
 
 
 [project link](https://summerofcode.withgoogle.com/projects/#5583766987735040)
