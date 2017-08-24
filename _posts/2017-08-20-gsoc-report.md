@@ -22,8 +22,9 @@ The coding part of the project was done in 3 phases
 
 #### Phase 1 :
 
-**Dockerization** : In order to achieve the Dockerization, I have had to added new scripts like Dockerfile, Docker-composer, bash scripts to set up the Docker container. The Docker is logically divided into smaller containers like PEcAn-Core, PEcAn-web, Bety & PostgreSQL. They are communicating with each other to get the task accompleshed.
-The Relative documentaion is updated so the user won't find it difficult to setup the docker containers.
+**Dockerization** : In order to achieve the Dockerization, I have had to added new scripts like Dockerfile, Docker-composer, bash scripts to set up the Docker container. The Docker is logically divided into smaller containers like PEcAn-Core, PEcAn-web, Bety & PostgreSQL. They are communicating with each other to get the task accomplished.
+
+The corresponding documentaion is updated so the user won't find it difficult to setup the docker containers.
 
 ***Pull Request*** : The Pull Request for this phase can be found at  [github.com/PecanProject/pecan/pull/1485](https://github.com/PecanProject/pecan/pull/1485)
 
@@ -40,3 +41,13 @@ A brief description of the use of the setup page is added in the documentaion.
 A new submit bug page is maded as post bug report from within the application.
 
 ***Pull Request*** : The Pull Request for this phase can be found at  [github.com/PecanProject/pecan/pull/1589](https://github.com/PecanProject/pecan/pull/1589)
+
+## Conclusion
+
+Most of the part which are metioned in the proposal are done, few small things were left out like feedback page, Automatic update whenever a new version is released etc.
+
+Further there are few new things which can be done to extent this work
+- In setup page provision to add new host in config.php page further to edit existing host.
+- Give user power to chose the host to sync with to be passed in dump.bety.sh, default being all.
+- Seperating the model from the PEcAn-Core and making them independent and can be communicated via netowrks to use it.
+- Using the above way to spin the models as required to enable parallel execution in PEcAn.
