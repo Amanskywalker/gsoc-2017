@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Report
 tagline:          'GSOC 2017 project Report'
-description:      'The Google Summer of Code is almost over, so I wrote this post to give a overview over the targets I’ve met (and those I haven’t).'
+description:      'Google Summer of Code is almost over, so I wrote this post to give a overview over the targets I’ve met (and those I haven’t).'
 url:              gsoc.amanskywalker.tk/
 baseurl:          /
 
