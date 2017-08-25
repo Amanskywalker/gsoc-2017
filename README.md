@@ -2,7 +2,7 @@
 
 Google Summer of Code is almost over, so I wrote this post to give a overview over the targets I’ve met (and those I haven’t).
 
-hosted at [gsoc.amanskywalker.tk](gsoc.amanskywalker.tk) hosted by github-pages
+hosted at [gsoc.amanskywalker.tk](http://gsoc.amanskywalker.tk) hosted by github-pages
 
 Based on the hyde theme by **Mark Otto**
 
